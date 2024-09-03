@@ -1,0 +1,53 @@
+# Archivos y carpetas de Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Carpeta de entorno virtual
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Archivos de configuración de entornos
+*.env
+*.env.*
+*.local
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema de archivos
+.DS_Store
+Thumbs.db
+
+# Archivos de Docker
+docker-compose.override.yml
+docker-compose.local.yml
+*.dockerfile
+docker-compose.env
+
+# Archivos generados por test
+coverage/
+nosetests.xml
+*.cover
+*.py,cover
+
+# Otros archivos ignorados
+*.json
+*.yaml
+*.yml
+*.sqlite3
+
+# Directorios específicos de Django
+static/
