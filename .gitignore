@@ -51,3 +51,9 @@ nosetests.xml
 
 # Directorios específicos de Django
 static/
+
+# Ignorar entornos virtuales
+.venv/
+venv/
+ENV/
+env/
